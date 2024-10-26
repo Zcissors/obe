@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Steam Login - CS2 Inventory Viewer</title>
+    <link rel="icon" type="image/x-icon" href="icons/logo.svg">
+    <title>CS2 Inventory Viewer</title>
     <style>
         * {
             margin: 0;
@@ -105,6 +106,10 @@
             padding: 1.5rem;
             border-radius: 12px;
             transition: all 0.3s ease;
+        }
+        .feature:last-child {
+            grid-column: span 2 / span 2;
+            grid-row-start: 2;
         }
 
         .feature:hover {
