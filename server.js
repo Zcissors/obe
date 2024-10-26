@@ -4,7 +4,6 @@ const passport = require('passport');
 const SteamStrategy = require('passport-steam').Strategy;
 require('dotenv').config();
 const axios = require('axios'); 
-export const runtime = 'edge';
 // Initialize express app
 const app = express();
 
